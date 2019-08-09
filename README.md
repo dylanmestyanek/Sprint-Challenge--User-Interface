@@ -51,7 +51,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-    Answer: Git allows you to navigate through your computer with a GUI. (For example, delving through folders and files, through Git, or the terminal.) Git also allows a tighter grip around your projects. Allowing you to control your saved progress, and with a tool like GitHub, it allows you to work on the same project as other individuals with the freedom to experiment on new features, without affecting the main program until your feature is polished, and complete.
+    Answer: Git allows you to navigate through your computer without a GUI. (For example, delving through folders and files, through Git, or the terminal.) Git also allows a tighter grip around your projects. Allowing you to control your saved progress, and with a tool like GitHub, it allows you to work on the same project as other individuals with the freedom to experiment on new features, without affecting the main program until your feature is polished, and complete.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
