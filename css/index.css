@@ -51,6 +51,10 @@ table {
     box-sizing: border-box;
 }
 
+html {
+    background: pink;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -69,6 +73,30 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    padding: 0 70px;
+    background: white;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0 30px;
+}
+
+nav img {
+    width: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerImg {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .top-content {
@@ -80,6 +108,7 @@ p {
 }
 
 .top-content .text-container {
+    font-size: 13px;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -98,18 +127,57 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+    width: 90px;
+    height: 90px;
+    margin: 15px 15px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +211,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ================================================== */
+/* =========== CSS for About.html Page  ============= */
+
+.about-page {
+    margin: 0 auto;
+    width: 95%;
+    font-size: 14px;
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed black;
+    margin: 20px 0;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mainContentChunks {
+    border-bottom: 1px dashed black;
+    width: 45%;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.mainContentChunks img {
+    width: 100%;
+}
+
+.mainContentChunks button {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    padding: 7px 18px;
+    margin-top: 15px;
 }
